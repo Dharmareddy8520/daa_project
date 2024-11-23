@@ -48,12 +48,14 @@ python test_fibonacci_heap.py
 
 ## Project Structure
 
+```project/
+├── fibonacci_heap.py
+├── test_fibonacci_heap.py
+├── screenshots/         # Your folder containing images
+│   ├── screenshot1.png
+│   ├── screenshot2.png
+├── README.md
 ```
-├── fibonacci_heap.py         # Fibonacci Heap implementation
-├── test_fibonacci_heap.py    # Test suite for the Fibonacci Heap
-└── README.md                 # Project documentation
-```
-
 ## Known Constraints
 
 - Only positive keys are allowed (negative keys will raise a `ValueError`).
